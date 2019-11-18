@@ -80,6 +80,9 @@ main:after{
 h2 {
   text-align: center;
 }
+p {
+  margin: 2px;
+}
 
 
 .left {
@@ -102,13 +105,23 @@ h2 {
 footer {
   background-color: white;
   margin:10px;
+  border-radius: 6px;
 }
-
+.bottom {
+  border-top: 2px solid grey;
+}
 .produttore {
   text-align: center;
 }
 i {
-  font-size: 80px;
-  padding: 50px;
-  text-align: center;
+  font-size: 40px;
+}
+.fa-facebook-square {
+  margin-left:  20%;
+}
+.fa-instagram {
+  margin-left: 30%;
+}
+.fa-github {
+  margin-left: 20%;
 }
