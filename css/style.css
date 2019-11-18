@@ -4,12 +4,16 @@
   box-sizing: border-box;
 
 }
+body{
+  background-color: #927f68;
+}
 font-family: 'Roboto', sans-serif;
 .container {
-  width: 70%;
+  width:70%;
   height: 100vh;
   margin:auto;
 }
+
 .logo {
 position: relative;
 background-image: url(../img/bosco.jpg);
@@ -40,6 +44,8 @@ ul{
   list-style: none;
   text-decoration: none;
   color: white;
+  font-variant: small-caps;
+  font-size: 20px;
 }
 a {
   text-decoration: none;
@@ -66,9 +72,9 @@ main:after{
 
 
 .colonna {
-  background-color: red;
   float:left;
 }
+
 
 .left {
   width: 28%
@@ -84,10 +90,18 @@ main:after{
   margin: 6px 0;
 }
 .bottom{
-  background-color: green;
+
   width: 100%;
 }
-.bottom {
-  background-color: green;
-  width: 100%
+footer {
+  background-color: white;
+}
+
+.produttore {
+  text-align: center;
+}
+i {
+  font-size: 80px;
+  padding: 30px;
+  text-align: center;
 }
