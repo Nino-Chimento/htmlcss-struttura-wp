@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.container {
+  width: 70%;
+  height: 100vh;
+  margin:auto;
+}
+.logo {
+position: relative;
+background-image: url(../img/bosco.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 300px;
+}
+.natural {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 100px;
+  color: white;
+  border: 4px solid white;
+}
+.menu {
+  width: 100%;
+  height: 80px;
+  background-color: grey;
+}
+.colonna {
+  background-color: red;
+  float:left;
+}
+
+.left {
+  width: 28%
+}
+.center {
+  width: 40%;
+  margin:0 2%;
+}
+.right {
+  width: 28%
+}
+.bottomright {
+  margin: 6px 0;
+}
+.bottom{
+  background-color: green;
+  width: 100%;
+}
+.bottom {
+  background-color: green;
+  width: 100%
+}
