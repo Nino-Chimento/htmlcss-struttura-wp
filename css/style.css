@@ -4,13 +4,14 @@
   box-sizing: border-box;
 
 }
-body{
-  background-color: #927f68;
-}
-font-family: 'Roboto', sans-serif;
+
+
 .container {
   width:70%;
   margin:auto;
+}
+body{
+  background-color: #927f68;
 }
 
 
@@ -74,7 +75,10 @@ main:after{
 .colonna {
   float:left;
   background-color: white;
-  border-radius: 3px;
+  border-radius: 6px;
+}
+h2 {
+  text-align: center;
 }
 
 
@@ -89,7 +93,7 @@ main:after{
   width: 20%
 }
 .bottomright {
-  margin: 6px 0;
+  margin: 10px 0;
 }
 .bottom{
 
@@ -97,6 +101,7 @@ main:after{
 }
 footer {
   background-color: white;
+  margin:10px;
 }
 
 .produttore {
