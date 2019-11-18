@@ -10,9 +10,9 @@ body{
 font-family: 'Roboto', sans-serif;
 .container {
   width:70%;
-  height: 100vh;
   margin:auto;
 }
+
 
 .logo {
 position: relative;
@@ -73,18 +73,20 @@ main:after{
 
 .colonna {
   float:left;
+  background-color: white;
+  border-radius: 3px;
 }
 
 
 .left {
-  width: 28%
+  width: 20%
 }
 .center {
-  width: 40%;
+  width: 56%;
   margin:0 2%;
 }
 .right {
-  width: 28%
+  width: 20%
 }
 .bottomright {
   margin: 6px 0;
@@ -102,6 +104,6 @@ footer {
 }
 i {
   font-size: 80px;
-  padding: 30px;
+  padding: 50px;
   text-align: center;
 }
